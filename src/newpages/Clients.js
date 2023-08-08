@@ -16,7 +16,8 @@ export default function Clients() {
         if (client.age > 18) {
           return (
             <h2 className="orange">
-              Имя:{client.name}, Возраст: {client.age}, e-mail: {client.email}
+              Ваше имя:{client.name}, Ваш возраст: {client.age}, e-mail:{" "}
+              {client.email}
             </h2>
           );
         } else {
